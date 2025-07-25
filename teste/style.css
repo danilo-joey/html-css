@@ -1,0 +1,17 @@
+@charset "UTF-8";
+ 
+header {
+    background-color: darkgrey;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
