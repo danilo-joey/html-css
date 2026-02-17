@@ -1,0 +1,6 @@
+paleta azul
+#00072D
+#001C55
+#0A2472
+#0E6BA8
+#A6E1FA
