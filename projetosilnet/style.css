@@ -81,21 +81,18 @@ section > div > h2 {
     text-align: right;
 }
 
-.planos {
-    background-color: white;
-    height: 500px;
-}
-
-.p1{
-    display: inline-block;
-    border: 1px solid black;
-}
-
-footer {
-    text-align: center;
-    padding: 5px;
+.net {
+    height: 700px;
     background-color: var(--cor5);
-    color: var(--cor1);
 }
 
+.net {
+    
+    height: 400px;
+    width: 40%;
+}
+
+.controle > img {
+    float: left;
+}
 
