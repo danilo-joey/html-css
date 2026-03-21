@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body ,html {
+            background-color: rgba(135, 206, 250, 0.445);
+            height: 100vh;
+            width: 100vw;
+        }
+
+        header {
+            background-color: lightgrey;
+            height: 150px;
+        }
+
+        nav {
+            background-color: grey;
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        li {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 80px;
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+
+        li:hover {
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
+        }
+
+        main {
+            background-color: white;
+            height: 83.8dvh;
+            width: 70%;
+            margin: auto;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+        }
+
+        div {
+            padding-top: 20px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .a {
+            background-color: black;
+            height: 300px;
+            width: 180px;
+        }
+        .b {
+            background-color: rgb(255, 0, 0);
+            height: 300px;
+            width: 180px;
+        }
+        .c {
+            background-color: rgb(43, 255, 0);
+            height: 300px;
+            width: 180px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul type="none">
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Produtos</li>
+                <li>Somos</li>
+                <li>Estoque</li>
+                <li>Contatos</li>
+                <li>FAQ</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="a">
+            </div>
+            <div class="b">
+            </div>
+            <div class="c">
+
+            </div>
+        </div>
+</body>
+</html>
