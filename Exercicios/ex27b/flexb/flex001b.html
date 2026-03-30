@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .pai{
+            background-color: #1f2937;
+            width: 95%;
+            height: 900px;
+            margin: auto;
+            display: flex;
+            flex-flow: column wrap-reverse;
+            justify-content:end; /*eixo principal (main)*/
+            align-items: start; /*eixo secundario (cross)*/
+            
+        }
+        .filho{
+            background-color: #52525b;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            text-align: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">1</div>
+        <div class="filho">2</div>
+        <div class="filho">3</div>
+        <div class="filho">4</div>
+        <div class="filho">5</div>
+        <div class="filho">6</div>
+    </div>
+</body>
+</html>
